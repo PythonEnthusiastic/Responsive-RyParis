@@ -393,6 +393,10 @@ hr {
 }
 
 @media only screen and (max-width: 700px) {
+    .menu-icon {
+        width: 15px;
+    }
+
     nav  ul {
         top: 11.5%;
     }
