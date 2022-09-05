@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ry Paris</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="navbar page-alignment">
+            <img src="images/ryparis-logo.png" class="logo" alt="RyParis Logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="recipe.html">Popular Recipes</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Meal Ideas</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu-icon.png" class="menu-icon" alt="Menu Icon" onclick="togglemenu()">
+        </div>
+        <hr>
+        <div id="page-cover-1" class="page-cover">
+            <h1>START THE WEEK OFF RIGHT</h1>
+        </div>
+        <div id="category" class="page-alignment">
+            <div class="section-content">
+                <h2 class="section-header">Everyday Categories</h2>
+                <p class="paragraph-style">
+                    Everyday Food has developed recipes with the home cook in mind. These delicious dishes featured
+                    on "RY Paris" call for simple ingredients that you already have in your pantry or can easily find at
+                    local grocery stores and farmers' markets.
+                </p>
+                <div class="images-row">
+                    <div class="images-box">
+                        <img src="../images/breakfast-ideas.jpg" class="image" alt="Breakfast Ideas">
+                        <h3>Breakfast Most Important Meal</h3>
+                    </div>
+                    <div class="images-box">
+                        <img src="../images/vegetarian-ideas.jpg" class="image" alt="Vegetarian Ideas">
+                        <h3>Vegetarian Lunch Ideas</h3>
+                    </div>
+                    <div class="images-box">
+                        <img src="../images/cold-weather-dinners.jpeg" class="image" alt="Dinner Ideas">
+                        <h3>Cold-Weather Weeknight Dinners</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="recipes" class="page-alignment">
+            <div class="section-content">
+                <h2 class="section-header">Healthy Recipes of the Week</h2>
+                <p class="paragraph-style">
+                    This weeks top award winners to critically-acclaimed recipe gems, check out thesse original recipes
+                    from home cook and professional chefs around the country.
+                </p>
+                <div class="images-row">
+                    <div class="images-box">
+                        <img src="../images/fajita-peppers.jpeg" class="image" alt="Fajita-Stuffed Peppers">
+                        <h3>Fajita-Stuffed Peppers</h3>
+                    </div>
+                    <div class="images-box">
+                        <img src="../images/muffins.jpeg" class="image" alt="Ree's Breakfast Muffins">
+                        <h3>Ree's Breakfast Muffins</h3>
+                    </div>
+                    <div class="images-box">
+                        <img src="../images/eggplant-parmesan.jpg" class="image" alt="Eggplant Parmesan">
+                        <h3>Eggplant Parmesan</h3>
+                    </div>
+                    <div class="images-box">
+                        <img src="../images/teriyaki-chicken.jpeg" class="image" alt="Teriyaki Chicken Thighs">
+                        <h3>Teriyaki Chicken Thighs</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="places" class="page-alignment">
+            <div class="section-content">
+                <h2 class="section-header">Where to Eat</h2>
+                <p class="paragraph-style">
+                    This is not the aspirational fluff of the instagram wall neon; it's fact. Recent surveys have shown that a
+                    majority of travelers consider food first when planning a trip, even ahead of where they sleep. Add to
+                    this that people are also traveling more than ever before -- earthlings logged a record-breaking 1.4
+                    billion international trips last year -- and it's safe to say that the hunger for new culinary experiences
+                    is more ravenous than ever.
+                </p>
+                <div class="paragraph-style">
+                    While the endlessly alluring bistros of Paris, izakayas of Tokyo, shawarma stands of Tel Aviv, and
+                    tasting menus of Mexico sity will always top many people's lists of cravings, we're continually on the
+                    lookout for something new to fill our bellies, our passports, and our feeds.
+                </div>
+                <div class="images-row">
+                    <div class="images-box">
+                        <img src="../images/burger.jpg" class="image" alt="Best Sandwiches in America">
+                        <h3>Best Sandwiches in America</h3>
+                    </div>
+                    <div class="images-box">
+                        <img src="../images/pizza.jpeg" class="image" alt="50 States of Pizza slices">
+                        <h3>50 States of Pizza slices</h3>
+                    </div>
+                    <div class="images-box">
+                        <img src="../images/city-guides.jpeg" class="image" alt="City Guides">
+                        <h3>City Guides</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer page-alignment">
+            <div class="copyright">
+                <img src="../images/Copyright-Symbol.png" alt="Copyright Symbol">
+                <h4>2020 RY PARIS</h4>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li>Site Map</li>
+                    <li>Privacy Policy</li>
+                    <li>About</li>
+                    <li>Advertise</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            var menuList = document.getElementById("menuList");
+
+            menuList.style.display = "block";
+            menuList.style.maxHeight = "0px";
+
+            function togglemenu() {
+                if (menuList.style.maxHeight == "0px") {
+                    menuList.style.maxHeight = "130px";
+                } else {
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
+<!-- 900 for tablets
+600 for phones -->
