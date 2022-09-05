@@ -356,6 +356,14 @@ hr {
     margin-bottom: 25px;
 }
 
+.directions-section ol .no-list {
+    margin: 0px;
+}
+
+.no-list {
+    list-style: none;
+}
+
 /* Tablets */
 
 @media only screen and (max-width: 945px) {
@@ -520,4 +528,5 @@ hr {
     .burger-recipe h4 {
         font-size: 20px;
     }
+
 }
